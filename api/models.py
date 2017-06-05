@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class RunEvent(models.Model):
     channel_id = models.CharField(max_length=100)
